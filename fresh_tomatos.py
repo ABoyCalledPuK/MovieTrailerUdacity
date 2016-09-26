@@ -14,11 +14,15 @@ main_page_head = '''
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Pacifico" rel="stylesheet"> 
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <style type="text/css" media="screen">
         body {
             padding-top: 80px;
+        }
+        p {
+            font-family: 'Lato', sans-serif;
         }
         #trailer .modal-dialog {
             margin-top: 200px;
@@ -56,10 +60,12 @@ main_page_head = '''
             top: 0;
             background-color: white;
         }
-        .search-input {
-            float: right;
-            width: 20%;
-            padding-top: 10px;
+        .navbar {
+            background-color: #F73B3B;
+        }
+        .navbar-brand {
+            color: black;
+            font-family: 'Pacifico', cursive;
         }
     </style>
     <script type="text/javascript" charset="utf-8">
@@ -109,10 +115,10 @@ main_page_content = '''
 
     <!-- Main Page Content -->
     <div class="container">
-      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="navbar navbar-fixed-top" role="navigation">
         <div class="container">     
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">The Fresh Tomatoes Movie Trailers</a>
+            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
           </div>
         </div>
       </div>
