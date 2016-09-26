@@ -5,6 +5,9 @@ import apiRequest
 
 class User_Input_Class():
 
+	# Gives short explinantion on how to input movie ID's to user
+	print('Film ID\'s can be found \"www.themoviedb.org\", To exit type any string')
+
 	movie_id = 862
 	movie_json = ""
 

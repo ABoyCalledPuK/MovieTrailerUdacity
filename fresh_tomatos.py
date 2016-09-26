@@ -110,13 +110,7 @@ main_page_content = '''
     <!-- Main Page Content -->
     <div class="container">
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="input-group input-group-sm search-input">
-                <form method="POST">
-                    <input type="text" class="form-control" placeholder="Title" name="submit">
-                    <input type="submit">
-                </form>
-            </div>       
+        <div class="container">     
           <div class="navbar-header">
             <a class="navbar-brand" href="#">The Fresh Tomatoes Movie Trailers</a>
           </div>
@@ -136,6 +130,7 @@ movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
     <h2>{movie_title}</h2>
+    <p>{movie_plot}</p>
 </div>
 '''
 
@@ -154,6 +149,7 @@ def create_movie_tiles_content(movies):
 
         # Append the tile for the movie with its content filled in
         content += movie_tile_content.format(
+            movie_plot=movie.plot,
             movie_title=movie.title,
             poster_image_url=movie.poster_image_url,
             trailer_youtube_id=trailer_youtube_id
