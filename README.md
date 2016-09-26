@@ -10,7 +10,7 @@ For example the title of films and there related ID's:
 271110 - Captain America Civil War, 
 258489 - The Legend Of Tarzan,
 68735 - Warcraft, 
-76341 - mad Max: Fury Road,
+76341 - Mad Max: Fury Road,
 
 When you wish to run the program input $ python entertainment_center.py
 
