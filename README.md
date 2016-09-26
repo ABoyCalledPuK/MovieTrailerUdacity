@@ -5,13 +5,12 @@ This project will allow a user to input movie ID's from www.themoviedb.org and t
 
 Firstly go to www.themoviedb.org and search for film. When a film has been chosen you will find the movie ID in the url in front of the movie title. 
 
-For example:
-ID		Title
+For example the title of films and there related ID's:
 
-271110		Captain America Civil War
-258489		The Legend Of Tarzan
-68735		Warcraft
-76341		mad Max: Fury Road
+271110 - Captain America Civil War, 
+258489 - The Legend Of Tarzan,
+68735 - Warcraft, 
+76341 - mad Max: Fury Road,
 
 When you wish to run the program input $ python entertainment_center.py
 
